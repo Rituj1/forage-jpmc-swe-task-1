@@ -1,0 +1,115 @@
+From 4804d12e5ebe85b6fb259d8e30b986cda824d7a6 Mon Sep 17 00:00:00 2001
+From: Rituj Srivastava <rituj1103@gmail.com>
+Date: Sat, 20 Jul 2024 06:46:02 +0530
+Subject: [PATCH] Task1 Done.
+
+---
+ .idea/.gitignore                               |  3 +++
+ .idea/JP Morgan Forage.iml                     | 12 ++++++++++++
+ .idea/inspectionProfiles/profiles_settings.xml |  6 ++++++
+ .idea/misc.xml                                 |  7 +++++++
+ .idea/modules.xml                              |  8 ++++++++
+ .idea/vcs.xml                                  |  6 ++++++
+ forage-jpmc-swe-task-1                         |  1 +
+ 7 files changed, 43 insertions(+)
+ create mode 100644 .idea/.gitignore
+ create mode 100644 .idea/JP Morgan Forage.iml
+ create mode 100644 .idea/inspectionProfiles/profiles_settings.xml
+ create mode 100644 .idea/misc.xml
+ create mode 100644 .idea/modules.xml
+ create mode 100644 .idea/vcs.xml
+ create mode 160000 forage-jpmc-swe-task-1
+
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+index 0000000..26d3352
+--- /dev/null
++++ b/.idea/.gitignore
+@@ -0,0 +1,3 @@
++# Default ignored files
++/shelf/
++/workspace.xml
+diff --git a/.idea/JP Morgan Forage.iml b/.idea/JP Morgan Forage.iml
+new file mode 100644
+index 0000000..8b8c395
+--- /dev/null
++++ b/.idea/JP Morgan Forage.iml	
+@@ -0,0 +1,12 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="PYTHON_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$" />
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++  <component name="PyDocumentationSettings">
++    <option name="format" value="PLAIN" />
++    <option name="myDocStringFormat" value="Plain" />
++  </component>
++</module>
+\ No newline at end of file
+diff --git a/.idea/inspectionProfiles/profiles_settings.xml b/.idea/inspectionProfiles/profiles_settings.xml
+new file mode 100644
+index 0000000..105ce2d
+--- /dev/null
++++ b/.idea/inspectionProfiles/profiles_settings.xml
+@@ -0,0 +1,6 @@
++<component name="InspectionProjectProfileManager">
++  <settings>
++    <option name="USE_PROJECT_PROFILE" value="false" />
++    <version value="1.0" />
++  </settings>
++</component>
+\ No newline at end of file
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+index 0000000..9de2865
+--- /dev/null
++++ b/.idea/misc.xml
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Black">
++    <option name="sdkName" value="Python 3.10" />
++  </component>
++  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.10" project-jdk-type="Python SDK" />
++</project>
+\ No newline at end of file
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+index 0000000..0b313b3
+--- /dev/null
++++ b/.idea/modules.xml
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/JP Morgan Forage.iml" filepath="$PROJECT_DIR$/.idea/JP Morgan Forage.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+index 0000000..f953365
+--- /dev/null
++++ b/.idea/vcs.xml
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$/forage-jpmc-swe-task-1" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+diff --git a/forage-jpmc-swe-task-1 b/forage-jpmc-swe-task-1
+new file mode 160000
+index 0000000..879221f
+--- /dev/null
++++ b/forage-jpmc-swe-task-1
+@@ -0,0 +1 @@
++Subproject commit 879221fec2b863d37d5b493f02a530a8098ef6ef
+-- 
+2.42.0.windows.1
+
